@@ -1,0 +1,21 @@
+/*
+  YLMomentFormat.strings
+  YLMoment
+
+  Created by YannickL on 11/03/2014.
+  Translation comes from the moment.js project. Learn more at http://momentjs.com
+*/
+
+"future" = "%@後";
+"past"   = "%@前";
+"s"      = "幾秒鐘";
+"m"      = "1分鐘";
+"mm"     = "%d分鐘";
+"h"      = "1小時";
+"hh"     = "%d小時";
+"d"      = "1天";
+"dd"     = "%d天";
+"M"      = "1個月";
+"MM"     = "%d個月";
+"y"      = "1年";
+"yy"     = "%d年";

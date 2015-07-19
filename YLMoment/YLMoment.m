@@ -700,9 +700,8 @@ static NSString * const kYLMomentRelativeTimeStringTable = @"YLMomentRelativeTim
     });
 
     NSBundle *bundle   = momentBundle ?: classBundle;
-    NSString *lang     = [localeIdentifier substringToIndex:2];
-    NSString *langPath = [bundle pathForResource:lang ofType:@"lproj"];
-    
+    NSString *langPath = [bundle pathForResource:localeIdentifier ofType:@"lproj"];
+
     if (langPath)
     {
        return [NSBundle bundleWithPath:langPath];
